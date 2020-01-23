@@ -1,0 +1,95 @@
+body {
+  background-image: url("crystal-ball.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Domine', serif;
+  
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#q1 {
+  display: none;
+}
+
+#q2 {
+  display: none;
+}
+
+#q3 {
+  display: none;
+}
+
+#q4 {
+  display: none;
+}
+
+#q5 {
+  display: none;
+}
+
+h1 {
+  display: none;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Amarante', cursive;
+  font-size: 49px;
+  text-transform:uppercase;
+}
+
+button {
+  font-family: 'Amarante', cursive;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #3b3736;
+  border: none;
+  color:#fff;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px
+ 
+
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  
+}
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+button:active {
+  outline: none;
+  border: none;
+}
+
+p {
+  color: black;
+}
+
